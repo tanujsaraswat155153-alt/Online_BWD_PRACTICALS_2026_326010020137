@@ -1,0 +1,18 @@
+*{box-sizing:border-box}
+body{margin:0;padding:28px 14px;font-family:Arial,sans-serif;background:linear-gradient(135deg,#eaf3fa,#dce9f0);color:#263445}
+.form-card{max-width:650px;margin:auto;padding:30px;background:white;border:1px solid #d5e0e8;border-radius:16px;box-shadow:0 12px 30px #183a541c}
+h1{text-align:center;color:#174f78;margin-top:0;text-shadow:1px 1px 1px #dce8ef}
+.intro{text-align:center;color:#64748b;margin-bottom:25px}
+form{display:grid;gap:16px}
+.form-row{display:grid;gap:7px}
+label,legend{font-weight:600;color:#30465a}
+input,select,textarea{width:100%;padding:12px;border:1px solid #b8c8d5;border-radius:7px;font:inherit;background:#fbfdff;transition:border-color .2s,box-shadow .2s}
+input:focus,select:focus,textarea:focus{outline:none;border-color:#087e8b;box-shadow:0 0 0 3px #087e8b22}
+fieldset{border:1px solid #cbd8e1;border-radius:8px;padding:12px}
+.choice{display:inline-flex;align-items:center;gap:6px;margin:8px 16px 4px 0;font-weight:normal}
+.choice input,.terms input{width:auto}
+.terms{display:flex;align-items:center;gap:9px;font-weight:normal}
+button{padding:12px;border:0;border-radius:7px;background:#087e8b;color:white;font-size:16px;font-weight:bold;cursor:pointer;transition:transform .2s,background .2s}
+button:hover{background:#075f69;transform:translateY(-2px)}
+button.reset{background:#64748b}
+button.reset:hover{background:#475569}

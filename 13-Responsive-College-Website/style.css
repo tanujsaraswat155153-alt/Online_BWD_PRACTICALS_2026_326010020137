@@ -1,0 +1,10 @@
+body{font-family:Arial,sans-serif;color:#263445}
+.college-nav,footer{background:#143c5b}
+.hero{padding:85px 15px;background:linear-gradient(120deg,#155b8c,#087e8b)}
+.hero h1{font-size:clamp(2rem,5vw,3.5rem);font-weight:700}
+main h2{color:#155b8c;font-weight:700}
+.card{border:0;box-shadow:0 5px 18px #173b5618;transition:transform .2s}
+.card:hover{transform:translateY(-5px)}
+.card img{height:180px;object-fit:cover}
+.contact-box{padding:25px;background:#eef6f8;border-left:5px solid #087e8b;border-radius:8px}
+footer{background:#143c5b}

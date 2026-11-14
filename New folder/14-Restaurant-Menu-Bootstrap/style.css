@@ -1,0 +1,10 @@
+body{font-family:Arial,sans-serif;background:#fffdf9;color:#382f2a}
+.menu-nav,footer{background:#593a2b}
+.menu-hero{padding:75px 15px;background:linear-gradient(120deg,#9b542d,#d28a42)}
+.menu-hero h1{font-size:clamp(2rem,5vw,3.3rem);font-weight:700;text-shadow:2px 2px 4px #45261688}
+.section-title{color:#784326;margin:15px 0 22px;padding-bottom:9px;border-bottom:3px solid #e7c49e}
+.food-card{border:1px solid #ead9c8;border-radius:12px;overflow:hidden;box-shadow:0 5px 15px #593a2b12;transition:transform .25s,box-shadow .25s}
+.food-card:hover{transform:translateY(-6px);box-shadow:0 10px 22px #593a2b25}
+.food-card img{height:190px;object-fit:cover}
+.food-card strong{color:#9b542d;font-size:1.15rem}
+footer{background:#593a2b}

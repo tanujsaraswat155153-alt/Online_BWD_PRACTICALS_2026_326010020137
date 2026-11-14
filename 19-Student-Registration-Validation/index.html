@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Student Registration</title><link rel="stylesheet" href="style.css"></head>
+<body><main class="card"><h1>Student Registration Form</h1><p class="intro">Enter your details to register.</p>
+<form id="registrationForm" novalidate>
+<div class="field"><label for="name">Full Name</label><input id="name" type="text" placeholder="Your full name"><small id="nameError"></small></div>
+<div class="field"><label for="email">Email</label><input id="email" type="text" placeholder="name@example.com"><small id="emailError"></small></div>
+<div class="field"><label for="password">Password</label><input id="password" type="password" placeholder="At least 8 characters"><small id="passwordError"></small></div>
+<div class="field"><label for="gender">Gender</label><select id="gender"><option value="">Select gender</option><option>Female</option><option>Male</option><option>Other</option><option>Prefer not to say</option></select><small id="genderError"></small></div>
+<div class="field"><label for="course">Course</label><select id="course"><option value="">Select course</option><option>BCA</option><option>BBA</option><option>B.Com</option><option>MCA</option></select><small id="courseError"></small></div>
+<div class="field"><label for="phone">Mobile Number</label><input id="phone" type="tel" placeholder="10 digit number"><small id="phoneError"></small></div>
+<div class="field"><label for="address">Address / Other Details</label><textarea id="address" rows="3"></textarea><small id="addressError"></small></div>
+<button type="submit">Register</button><button type="reset" class="reset">Clear</button><p id="message" aria-live="polite"></p>
+</form></main><script src="script.js"></script></body></html>
